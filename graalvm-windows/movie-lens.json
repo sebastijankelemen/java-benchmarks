@@ -1,0 +1,273 @@
+{
+  "benchmarks": ["movie-lens"],
+  "format_version": 5,
+  "data": {
+    "movie-lens": {
+      "results": [{
+        "duration_ns": 58072383800,
+        "uptime_ns": 14205565700
+      }, {
+        "duration_ns": 51073375400,
+        "uptime_ns": 72348394200
+      }, {
+        "duration_ns": 48695331200,
+        "uptime_ns": 123475064100
+      }, {
+        "duration_ns": 47856347600,
+        "uptime_ns": 172225862900
+      }, {
+        "duration_ns": 47535034200,
+        "uptime_ns": 220142669700
+      }, {
+        "duration_ns": 46559676000,
+        "uptime_ns": 267758074900
+      }, {
+        "duration_ns": 46597896700,
+        "uptime_ns": 314392203800
+      }, {
+        "duration_ns": 45331346900,
+        "uptime_ns": 361084442800
+      }, {
+        "duration_ns": 45808125800,
+        "uptime_ns": 406475460200
+      }, {
+        "duration_ns": 46415541200,
+        "uptime_ns": 452344351300
+      }, {
+        "duration_ns": 46657058100,
+        "uptime_ns": 498814566900
+      }, {
+        "duration_ns": 45687446200,
+        "uptime_ns": 545550523200
+      }, {
+        "duration_ns": 47502643400,
+        "uptime_ns": 591302660100
+      }, {
+        "duration_ns": 45359710600,
+        "uptime_ns": 638862986700
+      }, {
+        "duration_ns": 46491062100,
+        "uptime_ns": 684284451300
+      }, {
+        "duration_ns": 44808599700,
+        "uptime_ns": 730839911000
+      }, {
+        "duration_ns": 46009348600,
+        "uptime_ns": 775702189700
+      }, {
+        "duration_ns": 46889077900,
+        "uptime_ns": 821777324800
+      }, {
+        "duration_ns": 47060375700,
+        "uptime_ns": 868731938200
+      }, {
+        "duration_ns": 46164519700,
+        "uptime_ns": 915865476600
+      }],
+      "termination": "normal"
+    }
+  },
+  "environment": {
+    "os": {
+      "name": "Windows 10",
+      "arch": "amd64",
+      "version": "10.0",
+      "available_processors": 4
+    },
+    "vm": {
+      "termination": "normal",
+      "name": "OpenJDK 64-Bit Server VM",
+      "classloading": {
+        "class_count": 11125,
+        "classes_total": 11276
+      },
+      "mode": "mixed mode, sharing",
+      "args": ["-XX:ThreadPriorityPolicy=1", "-XX:+UnlockExperimentalVMOptions", "-XX:+EnableJVMCIProduct", "-XX:JVMCIThreadsPerNativeLibraryRuntime=1", "-XX:-UnlockExperimentalVMOptions"],
+      "vendor": "GraalVM Community",
+      "spec_vendor": "Oracle Corporation",
+      "spec_name": "Java Virtual Machine Specification",
+      "compiler": {
+        "name": "HotSpot 64-Bit Tiered Compilers",
+        "compilation_time_ms": 82937
+      },
+      "start_iso": "2022-12-24T00:26:17.839Z",
+      "collectors": [{
+        "name": "G1 Young Generation",
+        "collection_count": 970,
+        "collection_time_ms": 3826
+      }, {
+        "name": "G1 Old Generation",
+        "collection_count": 20,
+        "collection_time_ms": 1179
+      }],
+      "start_unix_ms": 1671841577839,
+      "version": "17.0.5+8-jvmci-22.3-b08",
+      "pools": [{
+        "name": "CodeHeap 'non-nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 2892160,
+          "committed": 3538944,
+          "max": 6422528
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 3253376,
+          "committed": 3538944,
+          "max": 6422528
+        }
+      }, {
+        "name": "Metaspace",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 0,
+          "used": 77582128,
+          "committed": 78643200,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 77582128,
+          "committed": 78643200,
+          "max": -1
+        }
+      }, {
+        "name": "CodeHeap 'profiled nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 19232128,
+          "committed": 24379392,
+          "max": 122617856
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 23838464,
+          "committed": 24379392,
+          "max": 122617856
+        }
+      }, {
+        "name": "Compressed Class Space",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 0,
+          "used": 9041720,
+          "committed": 9568256,
+          "max": 1073741824
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 9041720,
+          "committed": 9568256,
+          "max": 1073741824
+        }
+      }, {
+        "name": "G1 Eden Space",
+        "type": "HEAP",
+        "usage": {
+          "init": 14680064,
+          "used": 62914560,
+          "committed": 274726912,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 14680064,
+          "used": 367001600,
+          "committed": 385875968,
+          "max": -1
+        }
+      }, {
+        "name": "G1 Old Gen",
+        "type": "HEAP",
+        "usage": {
+          "init": 253755392,
+          "used": 76834896,
+          "committed": 165675008,
+          "max": 4269801472
+        },
+        "peak_usage": {
+          "init": 253755392,
+          "used": 274679248,
+          "committed": 274726912,
+          "max": 4269801472
+        }
+      }, {
+        "name": "G1 Survivor Space",
+        "type": "HEAP",
+        "usage": {
+          "init": 0,
+          "used": 6135200,
+          "committed": 6291456,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 14650624,
+          "committed": 14680064,
+          "max": -1
+        }
+      }, {
+        "name": "CodeHeap 'non-profiled nmethods'",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 2555904,
+          "used": 13298176,
+          "committed": 13369344,
+          "max": 122617856
+        },
+        "peak_usage": {
+          "init": 2555904,
+          "used": 13318144,
+          "committed": 13369344,
+          "max": 122617856
+        }
+      }],
+      "uptime_ms": 962485,
+      "compressed_oops_mode": "Zero based",
+      "threads": {
+        "thread_count": 27,
+        "thread_count_max": 260,
+        "daemon_thread_count": 26,
+        "threads_total": 2948
+      },
+      "spec_version": "17",
+      "memory": {
+        "heap_usage": {
+          "init": 268435456,
+          "used": 145884656,
+          "committed": 446693376,
+          "max": 4269801472
+        },
+        "nonheap_usage": {
+          "init": 7667712,
+          "used": 122039216,
+          "committed": 129499136,
+          "max": -1
+        },
+        "pending_finalization_count": 0
+      }
+    },
+    "jre": {
+      "java_version": "17.0.5",
+      "name": "OpenJDK Runtime Environment",
+      "class_path": ["../../suite/renaissance-mit-0.14.1.jar"],
+      "spec_version": "17",
+      "spec_vendor": "Oracle Corporation",
+      "spec_name": "Java Platform API Specification",
+      "home": "C:\\Users\\Seba\\Desktop\\java\\graalvm",
+      "version": "17.0.5+8-jvmci-22.3-b08",
+      "java_vendor": "GraalVM Community",
+      "library_path": ["C:\\Users\\Seba\\Desktop\\java\\graalvm\\bin", "C:\\Windows\\Sun\\Java\\bin", "C:\\Windows\\system32", "C:\\Windows", "C:\\Users\\Seba\\bin", "C:\\Program Files\\Git\\mingw64\\bin", "C:\\Program Files\\Git\\usr\\local\\bin", "C:\\Program Files\\Git\\usr\\bin", "C:\\Program Files\\Git\\usr\\bin", "C:\\Program Files\\Git\\mingw64\\bin", "C:\\Program Files\\Git\\usr\\bin", "C:\\Users\\Seba\\bin", "C:\\Windows\\system32", "C:\\Windows", "C:\\Windows\\System32\\Wbem", "C:\\Windows\\System32\\WindowsPowerShell\\v1.0", "C:\\Windows\\System32\\OpenSSH", "C:\\Program Files\\Git\\cmd", "C:\\Users\\Seba\\AppData\\Local\\Microsoft\\WindowsApps", "C:\\Users\\Seba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin", "C:\\Program Files\\Git\\usr\\bin\\vendor_perl", "C:\\Program Files\\Git\\usr\\bin\\core_perl", "."]
+    }
+  },
+  "suite": {
+    "git": {
+      "commit_hash": "dde0f7af00738e640ae0acf68ab66decc8249e15",
+      "commit_date": "2022-05-23T14:23:00+0200",
+      "dirty": "false"
+    },
+    "name": "Renaissance Benchmark Suite",
+    "version": "0.14.1"
+  }
+}

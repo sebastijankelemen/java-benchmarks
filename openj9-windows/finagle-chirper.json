@@ -1,0 +1,483 @@
+{
+  "benchmarks": ["finagle-chirper"],
+  "format_version": 5,
+  "data": {
+    "finagle-chirper": {
+      "results": [{
+        "duration_ns": 17748008300,
+        "uptime_ns": 7850428100
+      }, {
+        "duration_ns": 21848590100,
+        "uptime_ns": 25740503400
+      }, {
+        "duration_ns": 7461150600,
+        "uptime_ns": 47628032400
+      }, {
+        "duration_ns": 7183138000,
+        "uptime_ns": 55215613900
+      }, {
+        "duration_ns": 6492762200,
+        "uptime_ns": 62427559200
+      }, {
+        "duration_ns": 7121533700,
+        "uptime_ns": 68998506800
+      }, {
+        "duration_ns": 7530979400,
+        "uptime_ns": 76184605300
+      }, {
+        "duration_ns": 6286682000,
+        "uptime_ns": 83832376200
+      }, {
+        "duration_ns": 6180068500,
+        "uptime_ns": 90153074000
+      }, {
+        "duration_ns": 5985137300,
+        "uptime_ns": 96451422600
+      }, {
+        "duration_ns": 6203731800,
+        "uptime_ns": 102461201100
+      }, {
+        "duration_ns": 6296248500,
+        "uptime_ns": 108776500600
+      }, {
+        "duration_ns": 5854956800,
+        "uptime_ns": 115098797900
+      }, {
+        "duration_ns": 5816492300,
+        "uptime_ns": 121057740400
+      }, {
+        "duration_ns": 5744952300,
+        "uptime_ns": 126900102300
+      }, {
+        "duration_ns": 5903613200,
+        "uptime_ns": 132758483600
+      }, {
+        "duration_ns": 5588740600,
+        "uptime_ns": 138695854500
+      }, {
+        "duration_ns": 5643614800,
+        "uptime_ns": 144407040300
+      }, {
+        "duration_ns": 6048896500,
+        "uptime_ns": 150077153700
+      }, {
+        "duration_ns": 5953288800,
+        "uptime_ns": 156213926100
+      }, {
+        "duration_ns": 5475282800,
+        "uptime_ns": 162190222200
+      }, {
+        "duration_ns": 5764383800,
+        "uptime_ns": 167767352500
+      }, {
+        "duration_ns": 6595393300,
+        "uptime_ns": 173555731200
+      }, {
+        "duration_ns": 5668913000,
+        "uptime_ns": 180204232800
+      }, {
+        "duration_ns": 5408482900,
+        "uptime_ns": 185896927700
+      }, {
+        "duration_ns": 5489541300,
+        "uptime_ns": 191354916800
+      }, {
+        "duration_ns": 5443075300,
+        "uptime_ns": 196867154400
+      }, {
+        "duration_ns": 5502802900,
+        "uptime_ns": 202392187700
+      }, {
+        "duration_ns": 5263433800,
+        "uptime_ns": 207918606700
+      }, {
+        "duration_ns": 5245848800,
+        "uptime_ns": 213233820000
+      }, {
+        "duration_ns": 5295272100,
+        "uptime_ns": 218509993700
+      }, {
+        "duration_ns": 5277320600,
+        "uptime_ns": 223915297200
+      }, {
+        "duration_ns": 5406814100,
+        "uptime_ns": 229214869200
+      }, {
+        "duration_ns": 5392909800,
+        "uptime_ns": 234664013700
+      }, {
+        "duration_ns": 5375857600,
+        "uptime_ns": 240082611000
+      }, {
+        "duration_ns": 5255334600,
+        "uptime_ns": 245517212100
+      }, {
+        "duration_ns": 5208751200,
+        "uptime_ns": 250795289800
+      }, {
+        "duration_ns": 5374316900,
+        "uptime_ns": 256045143600
+      }, {
+        "duration_ns": 5169099500,
+        "uptime_ns": 261442150400
+      }, {
+        "duration_ns": 5192255500,
+        "uptime_ns": 266658017900
+      }, {
+        "duration_ns": 5325130700,
+        "uptime_ns": 271873127100
+      }, {
+        "duration_ns": 5180091100,
+        "uptime_ns": 277249217800
+      }, {
+        "duration_ns": 5137887400,
+        "uptime_ns": 282451769900
+      }, {
+        "duration_ns": 5551355700,
+        "uptime_ns": 287671380400
+      }, {
+        "duration_ns": 5177810000,
+        "uptime_ns": 293245664000
+      }, {
+        "duration_ns": 6329168800,
+        "uptime_ns": 298481272700
+      }, {
+        "duration_ns": 5284675800,
+        "uptime_ns": 304833411200
+      }, {
+        "duration_ns": 5164491100,
+        "uptime_ns": 310166731900
+      }, {
+        "duration_ns": 5179280900,
+        "uptime_ns": 315358672200
+      }, {
+        "duration_ns": 5230512500,
+        "uptime_ns": 320595174100
+      }, {
+        "duration_ns": 5213503700,
+        "uptime_ns": 325850727200
+      }, {
+        "duration_ns": 5182526500,
+        "uptime_ns": 331110000400
+      }, {
+        "duration_ns": 5159976300,
+        "uptime_ns": 336315711600
+      }, {
+        "duration_ns": 5077103500,
+        "uptime_ns": 341518189200
+      }, {
+        "duration_ns": 5150001600,
+        "uptime_ns": 346620940600
+      }, {
+        "duration_ns": 5127833800,
+        "uptime_ns": 351815050100
+      }, {
+        "duration_ns": 4950909500,
+        "uptime_ns": 356965839200
+      }, {
+        "duration_ns": 5060967100,
+        "uptime_ns": 361968334000
+      }, {
+        "duration_ns": 4933189500,
+        "uptime_ns": 367052307600
+      }, {
+        "duration_ns": 5020986200,
+        "uptime_ns": 372036851000
+      }, {
+        "duration_ns": 4975359200,
+        "uptime_ns": 377089905700
+      }, {
+        "duration_ns": 5017202900,
+        "uptime_ns": 382112639600
+      }, {
+        "duration_ns": 5036696200,
+        "uptime_ns": 387153215800
+      }, {
+        "duration_ns": 5005663300,
+        "uptime_ns": 392239998500
+      }, {
+        "duration_ns": 5112419300,
+        "uptime_ns": 397268192400
+      }, {
+        "duration_ns": 5060639000,
+        "uptime_ns": 402428698000
+      }, {
+        "duration_ns": 5452584600,
+        "uptime_ns": 407512092700
+      }, {
+        "duration_ns": 5090206000,
+        "uptime_ns": 413042533400
+      }, {
+        "duration_ns": 4986299300,
+        "uptime_ns": 418155338800
+      }, {
+        "duration_ns": 4957226300,
+        "uptime_ns": 423194584100
+      }, {
+        "duration_ns": 4975239700,
+        "uptime_ns": 428178757100
+      }, {
+        "duration_ns": 5020847500,
+        "uptime_ns": 433201393600
+      }, {
+        "duration_ns": 4971158200,
+        "uptime_ns": 438244916400
+      }, {
+        "duration_ns": 5095459200,
+        "uptime_ns": 443262909100
+      }, {
+        "duration_ns": 5215935700,
+        "uptime_ns": 448381623800
+      }, {
+        "duration_ns": 5109695300,
+        "uptime_ns": 453668809600
+      }, {
+        "duration_ns": 4951820500,
+        "uptime_ns": 458801649200
+      }, {
+        "duration_ns": 4917822500,
+        "uptime_ns": 463803412700
+      }, {
+        "duration_ns": 4922084600,
+        "uptime_ns": 468744701200
+      }, {
+        "duration_ns": 5086851000,
+        "uptime_ns": 473714366500
+      }, {
+        "duration_ns": 4949745000,
+        "uptime_ns": 478825622600
+      }, {
+        "duration_ns": 4936847500,
+        "uptime_ns": 483822183800
+      }, {
+        "duration_ns": 4925710500,
+        "uptime_ns": 488783012700
+      }, {
+        "duration_ns": 4956910200,
+        "uptime_ns": 493757139700
+      }, {
+        "duration_ns": 4904256300,
+        "uptime_ns": 498736803600
+      }, {
+        "duration_ns": 4953693200,
+        "uptime_ns": 503696068500
+      }, {
+        "duration_ns": 4989880200,
+        "uptime_ns": 508673399000
+      }, {
+        "duration_ns": 4958875800,
+        "uptime_ns": 513714055900
+      }, {
+        "duration_ns": 4876580500,
+        "uptime_ns": 518695334800
+      }, {
+        "duration_ns": 4947000200,
+        "uptime_ns": 523624526200
+      }],
+      "termination": "normal"
+    }
+  },
+  "environment": {
+    "os": {
+      "name": "Windows 10",
+      "arch": "amd64",
+      "version": "10.0",
+      "available_processors": 4
+    },
+    "vm": {
+      "termination": "normal",
+      "name": "Eclipse OpenJ9 VM",
+      "classloading": {
+        "class_count": 7669,
+        "classes_total": 7684
+      },
+      "mode": "JRE 17 Windows 10 amd64-64-Bit Compressed References 20221018_298 (JIT enabled, AOT enabled)\nOpenJ9   - e04a7f6c1\nOMR      - 85a21674f\nJCL      - 32d2c409a33 based on jdk-17.0.5+8",
+      "args": ["-Xoptionsfile=C:\\Users\\Seba\\Desktop\\java\\openj9\\lib\\options.default", "-Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple", "-XX:+EnsureHashed:java/lang/Class,java/lang/Thread", "-Xjcl:jclse29", "-Dcom.ibm.oti.vm.bootstrap.library.path=C:\\Users\\Seba\\Desktop\\java\\openj9\\bin\\default;C:\\Users\\Seba\\Desktop\\java\\openj9\\bin", "-Dsun.boot.library.path=C:\\Users\\Seba\\Desktop\\java\\openj9\\bin\\default;C:\\Users\\Seba\\Desktop\\java\\openj9\\bin", "-Djava.library.path=C:\\Users\\Seba\\Desktop\\java\\openj9\\bin\\default;C:\\Users\\Seba\\Desktop\\java\\openj9\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Users\\Seba\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Seba\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Users\\Seba\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Seba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl;.", "-Djava.home=C:\\Users\\Seba\\Desktop\\java\\openj9", "-Duser.dir=C:\\Users\\Seba\\Desktop\\dev\\java-benchmarks", "-Djava.class.path=../../suite/renaissance-mit-0.14.1.jar", "-Dsun.java.command=../../suite/renaissance-mit-0.14.1.jar finagle-chirper --json finagle-chirper.json", "-Dsun.java.launcher=SUN_STANDARD"],
+      "vendor": "Eclipse OpenJ9",
+      "spec_vendor": "Oracle Corporation",
+      "spec_name": "Java Virtual Machine Specification",
+      "compiler": {
+        "name": "j9jit29",
+        "compilation_time_ms": 111143
+      },
+      "start_iso": "2022-12-23T22:36:37.526Z",
+      "collectors": [{
+        "name": "scavenge",
+        "collection_count": 2647,
+        "collection_time_ms": 12611
+      }, {
+        "name": "global",
+        "collection_count": 98,
+        "collection_time_ms": 3396
+      }],
+      "start_unix_ms": 1671834997526,
+      "version": "openj9-0.35.0",
+      "pools": [{
+        "name": "class storage",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 314208248,
+          "used": 41421584,
+          "committed": 349655280,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 314208248,
+          "used": 41421584,
+          "committed": 349655280,
+          "max": -1
+        }
+      }, {
+        "name": "JIT code cache",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 268435456,
+          "used": 18108864,
+          "committed": 268435456,
+          "max": 268435456
+        },
+        "peak_usage": {
+          "init": 268435456,
+          "used": 18108864,
+          "committed": 268435456,
+          "max": 268435456
+        }
+      }, {
+        "name": "tenured-LOA",
+        "type": "HEAP",
+        "usage": {
+          "init": 315392,
+          "used": 0,
+          "committed": 1478656,
+          "max": 213280768
+        },
+        "peak_usage": {
+          "init": 315392,
+          "used": 0,
+          "committed": 0,
+          "max": 0
+        }
+      }, {
+        "name": "nursery-survivor",
+        "type": "HEAP",
+        "usage": {
+          "init": 1048576,
+          "used": 7536640,
+          "committed": 7536640,
+          "max": 107439104
+        },
+        "peak_usage": {
+          "init": 1048576,
+          "used": 11141120,
+          "committed": 11141120,
+          "max": 254743552
+        }
+      }, {
+        "name": "JIT data cache",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 0,
+          "used": 10485760,
+          "committed": 10485760,
+          "max": 402653184
+        },
+        "peak_usage": {
+          "init": 0,
+          "used": 10485760,
+          "committed": 10485760,
+          "max": 402653184
+        }
+      }, {
+        "name": "tenured-SOA",
+        "type": "HEAP",
+        "usage": {
+          "init": 5976064,
+          "used": 20814296,
+          "committed": 28078080,
+          "max": 4052326400
+        },
+        "peak_usage": {
+          "init": 5976064,
+          "used": 26509168,
+          "committed": 28078080,
+          "max": 4052326400
+        }
+      }, {
+        "name": "nursery-allocate",
+        "type": "HEAP",
+        "usage": {
+          "init": 1048576,
+          "used": 47847872,
+          "committed": 67305472,
+          "max": 959486976
+        },
+        "peak_usage": {
+          "init": 1048576,
+          "used": 67305472,
+          "committed": 67305472,
+          "max": 959486976
+        }
+      }, {
+        "name": "miscellaneous non-heap storage",
+        "type": "NON_HEAP",
+        "usage": {
+          "init": 306900988,
+          "used": 31653844,
+          "committed": 326823932,
+          "max": -1
+        },
+        "peak_usage": {
+          "init": 306900988,
+          "used": 432628252,
+          "committed": 725282812,
+          "max": -1
+        }
+      }],
+      "uptime_ms": 528608,
+      "compressed_oops_mode": null,
+      "threads": {
+        "thread_count": 106,
+        "thread_count_max": 187,
+        "daemon_thread_count": 105,
+        "threads_total": 680
+      },
+      "spec_version": "17",
+      "memory": {
+        "heap_usage": {
+          "init": 8388608,
+          "used": 76197544,
+          "committed": 104398848,
+          "max": 4267704320
+        },
+        "nonheap_usage": {
+          "init": 889544692,
+          "used": 101470772,
+          "committed": 955400428,
+          "max": -1
+        },
+        "pending_finalization_count": 0
+      }
+    },
+    "jre": {
+      "java_version": "17.0.5",
+      "name": "IBM Semeru Runtime Open Edition",
+      "class_path": ["../../suite/renaissance-mit-0.14.1.jar"],
+      "spec_version": "17",
+      "spec_vendor": "Oracle Corporation",
+      "spec_name": "Java Platform API Specification",
+      "home": "C:\\Users\\Seba\\Desktop\\java\\openj9",
+      "version": "17.0.5+8",
+      "java_vendor": "IBM Corporation",
+      "library_path": ["C:\\Users\\Seba\\Desktop\\java\\openj9\\bin\\default", "C:\\Users\\Seba\\Desktop\\java\\openj9\\bin", "C:\\Windows\\system32", "C:\\Windows", "C:\\Users\\Seba\\bin", "C:\\Program Files\\Git\\mingw64\\bin", "C:\\Program Files\\Git\\usr\\local\\bin", "C:\\Program Files\\Git\\usr\\bin", "C:\\Program Files\\Git\\usr\\bin", "C:\\Program Files\\Git\\mingw64\\bin", "C:\\Program Files\\Git\\usr\\bin", "C:\\Users\\Seba\\bin", "C:\\Windows\\system32", "C:\\Windows", "C:\\Windows\\System32\\Wbem", "C:\\Windows\\System32\\WindowsPowerShell\\v1.0", "C:\\Windows\\System32\\OpenSSH", "C:\\Program Files\\Git\\cmd", "C:\\Users\\Seba\\AppData\\Local\\Microsoft\\WindowsApps", "C:\\Users\\Seba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin", "C:\\Program Files\\Git\\usr\\bin\\vendor_perl", "C:\\Program Files\\Git\\usr\\bin\\core_perl", "."]
+    }
+  },
+  "suite": {
+    "git": {
+      "commit_hash": "dde0f7af00738e640ae0acf68ab66decc8249e15",
+      "commit_date": "2022-05-23T14:23:00+0200",
+      "dirty": "false"
+    },
+    "name": "Renaissance Benchmark Suite",
+    "version": "0.14.1"
+  }
+}
