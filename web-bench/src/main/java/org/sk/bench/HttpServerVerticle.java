@@ -18,6 +18,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.time.Instant;
+import java.util.Map;
 
 public class HttpServerVerticle extends AbstractVerticle {
     private static final Logger LOGGER = LoggerFactory.getLogger(HttpServerVerticle.class);
@@ -118,13 +119,13 @@ public class HttpServerVerticle extends AbstractVerticle {
             JsonObject body = (JsonObject) handler.body();
             boolean found = body.getBoolean("found");
             String rawContent = body.getString("rawContent", EMPTY_PAGE_MARKDOWN);
-            context.put("title", requestedPage);
-            context.put("id", body.getInteger("id", -1));
-            context.put("newPage", found ? "no" : "yes");
-            context.put("rawContent", rawContent);
-            context.put("content", Processor.process(rawContent));
-            context.put("timestamp", Instant.now().getEpochSecond());
-            JsonObject context = routingContext.body().asJsonObject();
+            routingContext.put("title", requestedPage);
+            routingContext.put("id", body.getInteger("id", -1));
+            routingContext.put("newPage", found ? "no" : "yes");
+            routingContext.put("rawContent", rawContent);
+            routingContext.put("content", Processor.process(rawContent));
+            routingContext.put("timestamp", Instant.now().getEpochSecond());
+            Map<String, Object> context = routingContext.data();
             Future<Buffer> renderFuture = templateEngine.render(context, "templates/page.ftl");
             renderFuture.onSuccess(result -> {
                 routingContext.response().putHeader("Content-Type", "text/html");
@@ -144,10 +145,9 @@ public class HttpServerVerticle extends AbstractVerticle {
         Future<Message<Object>> requestFuture = bus.request(address, new JsonObject(), options);
         requestFuture.onSuccess(handler -> {
             JsonObject body = (JsonObject) handler.body();
-            context.put("title", "Wiki home");
-            context.put("pages", body.getJsonArray("pages").getList());
-            JsonObject context = routingContext.body().asJsonObject();
-            System.out.println(context);
+            routingContext.put("title", "Wiki home");
+            routingContext.put("pages", body.getJsonArray("pages").getList());
+            Map<String, Object> context = routingContext.data();
             Future<Buffer> renderFuture = templateEngine.render(context, "templates/index.ftl");
             renderFuture.onSuccess(result -> {
                 routingContext.response().putHeader("Content-Type", "text/html");
