@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.sk.bench</groupId>
+  <artifactId>web-bench</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>web-bench</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.4.5</version>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-web</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-jdbc-client</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hsqldb</groupId>
+      <artifactId>hsqldb</artifactId>
+      <version>2.7.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.rjeschke</groupId>
+      <artifactId>txtmark</artifactId>
+      <version>0.13</version>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-web-templ-freemarker</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>3.2.0</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.3.0</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.10.1</version>
+        <configuration>
+          <release>19</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.4.0</version>
+        <executions>
+          <execution>
+            <id>copy-dependencies</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>
+                ${project.build.directory}/${project.artifactId}
+              </outputDirectory>
+              <includeScope>compile</includeScope>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.3.0</version>
+        <configuration>
+          <outputDirectory>
+            ${project.build.directory}/${project.artifactId}
+          </outputDirectory>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>
+                com.edc.api.Launcher
+              </mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
