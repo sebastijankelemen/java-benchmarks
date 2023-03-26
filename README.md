@@ -89,7 +89,7 @@ After each separated test suite has completed we can merge results into single r
 
 This will create single result file that can also be exported as described above.
 
-# Custom JVM benchmarks
+## Custom JVM benchmarks
 Currently the following custom benchmark applications are included in this repository for testing.
 - spring-benchmark (Simple Spring Boot application for measuring start up time and web page content rendering).
 
