@@ -93,5 +93,10 @@ This will create single result file that can also be exported as described above
 Currently the following custom benchmark applications are included in this repository for testing.
 - spring-benchmark (Simple Spring Boot application for measuring start up time and web page content rendering).
 - vertx-benchmark (Set of various benchmarks used in  Vert.x Web framework development, github page (https://github.com/eclipse-vertx/vert.x))
-- 
+
+## Custom JVM benchmark suite
+A custom phoronix test suite is also availabe as local/java-jvm suite 
+which has all benchmarks as phoronix java suite described above plus custom jvm benchmarks.
+
+
 
