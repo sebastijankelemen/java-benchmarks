@@ -97,6 +97,6 @@ Currently the following custom benchmark applications are included in this repos
 ## Custom JVM benchmark suite
 A custom phoronix test suite is also availabe as local/java-jvm suite 
 which has all benchmarks as phoronix java suite described above plus custom jvm benchmarks.
-
+Results example: https://openbenchmarking.org/result/2305237-NE-RUNLOCALJ70&grw
 
 
