@@ -92,4 +92,6 @@ This will create single result file that can also be exported as described above
 ## Custom JVM benchmarks
 Currently the following custom benchmark applications are included in this repository for testing.
 - spring-benchmark (Simple Spring Boot application for measuring start up time and web page content rendering).
+- vertx-benchmark (Set of various benchmarks used in  Vert.x Web framework development, github page (https://github.com/eclipse-vertx/vert.x))
+- 
 
