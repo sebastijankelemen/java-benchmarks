@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Spring application</Title>
+    <AppVersion>1.0</AppVersion>
+    <Description>A simple spring application</Description>
+    <ResultScale>GFLOPS</ResultScale>
+    <Proportion>HIB</Proportion>
+    <SubTitle></SubTitle>
+    <Executable></Executable>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Application</SoftwareType>
+    <TestType>Other</TestType>
+    <License>Free</License>
+    <Status>Experimental</Status>
+    <SupportedArchitectures>x86_64</SupportedArchitectures>
+    <ExternalDependencies>java</ExternalDependencies>
+    <EnvironmentSize>30</EnvironmentSize>
+    <ProjectURL></ProjectURL>
+    <RepositoryURL></RepositoryURL>
+    <Maintainer>Sebastijan Kelemen</Maintainer>
+    <SystemDependencies></SystemDependencies>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments></Arguments>
+      <PostArguments></PostArguments>
+    </Default>
+    <Option>
+      <DisplayName>Spring application</DisplayName>
+      <Identifier>spring-boot</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry></DefaultEntry>
+      <Message></Message>
+      <Menu>
+        <Entry>
+          <Name></Name>
+          <Value></Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.2-->
+<PhoronixTestSuite>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.CombinerExecutorBenchmark.impl                             N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.ConcurrentCyclicSequenceBenchmark.size1                    N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.ConcurrentCyclicSequenceBenchmark.size16                   N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.ConcurrentCyclicSequenceBenchmark.size2                    N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.ConcurrentCyclicSequenceBenchmark.size4                    N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.ConcurrentCyclicSequenceBenchmark.size8                    N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.ContextBenchmark.runOnContext                              N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.ContextBenchmark.runOnContextNoChecks                      N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersContainsBenchmark.nettySmallExactMatch              N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersContainsBenchmark.nettySmallMatch                   N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersContainsBenchmark.nettySmallMiss                    N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersContainsBenchmark.vertxSmallExactMatch              N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersContainsBenchmark.vertxSmallExactMiss               N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersContainsBenchmark.vertxSmallMatch                   N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersContainsBenchmark.vertxSmallMiss                    N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.baseline                           true           true         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.baseline                           true          false         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.baseline                          false           true         N/A  thrpt   10    #_RESULT_#</OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.baseline                          false          false         N/A  thrpt   10    #_RESULT_#</OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.nettySmall                         true           true         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.nettySmall                         true          false         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.nettySmall                        false           true         N/A  thrpt   10    #_RESULT_#</OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.nettySmall                        false          false         N/A  thrpt   10    #_RESULT_#</OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.vertxSmall                         true           true         N/A  thrpt   10   #_RESULT_#</OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.vertxSmall                         true          false         N/A  thrpt   10   #_RESULT_#</OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.vertxSmall                        false           true         N/A  thrpt   10   #_RESULT_#</OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.HeadersEncodeBenchmark.vertxSmall                        false          false         N/A  thrpt   10   #_RESULT_#</OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonDecodeBenchmark.deepBufferJackson                      N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonDecodeBenchmark.deepStringJackson                      N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonDecodeBenchmark.smallBufferJackson                     N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonDecodeBenchmark.smallStringJackson                     N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonDecodeBenchmark.wideBufferJackson                      N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonDecodeBenchmark.wideStringJackson                      N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.core.http.impl.HttpServerHandlerBenchmark.netty                       N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.core.http.impl.HttpServerHandlerBenchmark.vertx                       N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.core.http.impl.HttpServerHandlerBenchmark.vertxOpt                    N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.core.http.impl.HttpServerHandlerBenchmark.vertxOptMetricsOn           N/A            N/A         N/A  thrpt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.deepBufferDatabind                     N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.deepBufferJackson                      N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.deepStringDatabind                     N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.deepStringJackson                      N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.smallBufferDatabind                    N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.smallBufferJackson                     N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.smallStringDatabind                    N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.smallStringJackson                     N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.wideBufferDatabind                     N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.wideBufferJackson                      N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.wideStringDatabind                     N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+     <ResultsParser>
+          <OutputTemplate> i.v.benchmarks.JsonEncodeBenchmark.wideStringJackson                      N/A            N/A         N/A   avgt   10    #_RESULT_# </OutputTemplate>
+     </ResultsParser>
+
+</PhoronixTestSuite>
