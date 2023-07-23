@@ -2,12 +2,11 @@
 Benchmarks for Java virtual machine implementations.
 
 Following implementations are tested
-- OpenJDK 17 (version "17.0.6" 2023-01-17)
-- GraalVM Java 17 (version "17.0.6" 2023-01-17)
-- Eclipse J9 (version "17.0.5" 2022-10-18)
+- OpenJDK 17 (version "11.0.19" 2023-04-18)
+- GraalVM Java 17 (version "11.0.19" 2023-04-18)
+- Eclipse J9 (version "11.0.19" 2023-04-18)
 
-Each JVM is latest available version at the time of writing and
-targets **Java language release 17** which is a latest Long-Term-Support (LTS) release.
+Each JVM targets **Java language release 11** which is a latest Long-Term-Support (LTS) release.
 
 Benchmarks are made using [Phoronix Test Suite](https://www.phoronix-test-suite.com/)
 which handles running automated tests as well as results aggregation and report generation.
@@ -96,7 +95,7 @@ Currently the following custom benchmark applications are included in this repos
 
 ## Custom JVM benchmark suite
 A custom phoronix test suite is also availabe as local/java-jvm suite 
-which has all benchmarks as phoronix java suite described above plus custom jvm benchmarks.
+which has all benchmarks as phoronix java suite described above plus some custom jvm benchmarks.
 [Suite results example](https://openbenchmarking.org/result/2305237-NE-RUNLOCALJ70&grw).
 
 
