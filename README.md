@@ -2,8 +2,8 @@
 Benchmarks for Java virtual machine implementations.
 
 Following implementations are tested
-- OpenJDK 17 (version "11.0.19" 2023-04-18)
-- GraalVM Java 17 (version "11.0.19" 2023-04-18)
+- OpenJDK 11 (version "11.0.19" 2023-04-18)
+- GraalVM Java 11 (version "11.0.19" 2023-04-18)
 - Eclipse J9 (version "11.0.19" 2023-04-18)
 
 Each JVM targets **Java language release 11** which is a latest Long-Term-Support (LTS) release.
