@@ -1,0 +1,719 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>java jvm windows</Title>
+    <LastModified>2023-07-23 02:38:42</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
+    <Description>AMD Ryzen 5 5600X 6-Core testing with a Gigabyte B550 AORUS ELITE V2 (F15d BIOS) and NVIDIA GeForce GTX 1650 4GB on Microsoft Windows 11 Pro Build 22621 via the Phoronix Test Suite.</Description>
+    <Notes></Notes>
+    <InternalTags></InternalTags>
+    <ReferenceID></ReferenceID>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>OpenJDK Windows 11</Identifier>
+    <Hardware>Processor: AMD Ryzen 5 5600X 6-Core @ 3.70GHz (6 Cores / 12 Threads), Motherboard: Gigabyte B550 AORUS ELITE V2 (F15d BIOS), Memory: 2 x 8192 MB 3200MHz Kingston KHX3200C16D4, Disk: 477GB Viper M.2 VPR100 + 14GB Kingston DataTraveler 3.0 USB, Graphics: NVIDIA GeForce GTX 1650 4GB, Audio: Realtek HD Audio + NVIDIA HD Audio, Monitor: 7GG5</Hardware>
+    <Software>OS: Microsoft Windows 11 Pro Build 22621, Kernel: 10.0.22621.1992 (x86_64), Display Driver: 536.67 (31.0.15.3667), File-System: NTFS, Screen Resolution: 1920x1080</Software>
+    <User>Test</User>
+    <TimeStamp>2023-07-22 02:13:24</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"java":"OpenJDK Runtime Environment Temurin-11.0.19+7 (build 11.0.19+7)","security":"__user pointer sanitization: Disabled + Retpoline: Full + IBPB: Always + IBRS: Enabled + STIBP: Enabled + VBS: Disabled"}</JSON>
+  </System>
+  <System>
+    <Identifier>OpenJ9 Windows 11</Identifier>
+    <Hardware>Processor: AMD Ryzen 5 5600X 6-Core @ 3.70GHz (6 Cores / 12 Threads), Motherboard: Gigabyte B550 AORUS ELITE V2 (F15d BIOS), Memory: 2 x 8192 MB 3200MHz Kingston KHX3200C16D4, Disk: 477GB Viper M.2 VPR100 + 14GB Kingston DataTraveler 3.0 USB, Graphics: NVIDIA GeForce GTX 1650 4GB, Audio: Realtek HD Audio + NVIDIA HD Audio, Monitor: 7GG5</Hardware>
+    <Software>OS: Microsoft Windows 11 Pro Build 22621, Kernel: 10.0.22621.1992 (x86_64), Display Driver: 536.67 (31.0.15.3667), File-System: NTFS, Screen Resolution: 1920x1080</Software>
+    <User>Test</User>
+    <TimeStamp>2023-07-22 18:30:38</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"java":"OMR 855813495","security":"__user pointer sanitization: Disabled + Retpoline: Full + IBPB: Always + IBRS: Enabled + STIBP: Enabled + VBS: Disabled"}</JSON>
+  </System>
+  <System>
+    <Identifier>GraalVM Windows 11</Identifier>
+    <Hardware>Processor: AMD Ryzen 5 5600X 6-Core @ 3.70GHz (6 Cores / 12 Threads), Motherboard: Gigabyte B550 AORUS ELITE V2 (F15d BIOS), Memory: 2 x 8192 MB 3200MHz Kingston KHX3200C16D4, Disk: 477GB Viper M.2 VPR100 + 14GB Kingston DataTraveler 3.0 USB, Graphics: NVIDIA GeForce GTX 1650 4GB, Audio: Realtek HD Audio + NVIDIA HD Audio, Monitor: 7GG5</Hardware>
+    <Software>OS: Microsoft Windows [Version 10.0.22621.1992], Kernel: 10.0.22621.1992 (x86_64), Display Driver: 536.67 (31.0.15.3667), File-System: NTFS, Screen Resolution: 1920x1080</Software>
+    <User>Test</User>
+    <TimeStamp>2023-07-22 23:20:31</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"java":"OpenJDK Runtime Environment GraalVM CE 22.3.2 (build 11.0.19+7-jvmci-22.3-b18)","security":"__user pointer sanitization: Disabled + Retpoline: Full + IBPB: Always + IBRS: Enabled + STIBP: Enabled + VBS: Disabled"}</JSON>
+  </System>
+  <Result>
+    <Identifier>local/vertx-1.0.0</Identifier>
+    <Title>Java Vertx benchmarks</Title>
+    <AppVersion>4.4</AppVersion>
+    <Arguments></Arguments>
+    <Description>Throughput</Description>
+    <Scale>Ops/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>453918.891</Value>
+        <RawString>14173.421:61272.325:79617.128:32484.503:79686.128:78588.738:301279.27:1444277.215:1661514.068:219041.756:860311.781:2221149.482:2482289.887:223442.783:951413.75:2643318.024:2653743.195:2649020.578:2647638.48:91223.892:33950.912:52731.439:32165.252:102268.422:44622.109:55226.758:33236.362:1.969:1.745:906.497:815.336:13.417:10.658:10457.673:8565.894:8277.23:9355.521:2.498:2.31:2.707:2.616:0.012:0.007:0.008:0.841:0.824:0.695:0.659</RawString>
+        <JSON>{"test-run-times":"2162.79"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>536774.883</Value>
+        <RawString>7903.836:32980.089:46291.2:32390.847:39621.92:34588.472:165183.29:673312.896:728374.329:275984.389:998100.649:2031214.579:2632457.456:280985.151:1109622.171:5619467.906:2569512.587:5631305.868:2524475.258:56086.401:38575.675:43341.849:32294.707:38509.626:36852.146:31276.196:32198.173:1.685:1.561:712.038:677.542:14.346:11.224:5523.425:4920.548:5074.109:5332.606:2.099:2.255:5.049:5.103:0.009:0.01:0.011:0.57:0.56:0.976:0.998</RawString>
+        <JSON>{"test-run-times":"2166.61"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>489458.153</Value>
+        <RawString>8666.435:41203.741:49208.586:44824.961:43923.363:31763.797:291825.05:1500738.457:1554949.121:220711.451:1126739.03:2122220.327:2474764.722:228493.147:1168041.223:2854348.922:2826492.941:2834595.507:2852875.087:113577.176:75596.596:88358.949:66701.92:117161.685:76937.202:89481.617:67457.942:1.708:1.539:960.177:882.202:15.959:11.607:8219.038:7270.708:7665.329:7832.836:2.107:2.227:3.063:3.132:0.008:0.009:0.596:0.578:0.693:0.706</RawString>
+        <JSON>{"test-run-times":"2164.30"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/renaissance-1.3.0</Identifier>
+    <Title>Renaissance</Title>
+    <AppVersion>0.14</AppVersion>
+    <Arguments>akka-uct</Arguments>
+    <Description>Test: Akka Unbalanced Cobwebbed Tree</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>7910.5</Value>
+        <RawString>7901.242758:7903.729976:7926.6348</RawString>
+        <JSON>{"min-result":6771.65,"max-result":7926.63,"test-run-times":"175.89:176.03:176.10"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>9525.3</Value>
+        <RawString>9530.3566:9460.2826:9585.2777</RawString>
+        <JSON>{"min-result":8166.7,"max-result":9585.28,"test-run-times":"209.09:207.15:210.33"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>8312.8</Value>
+        <RawString>8473.5823:8432.2402:8090.2485:7999.6266:8434.062485:8531.372611:8031.5263:8451.8692:8311.3196:8371.955</RawString>
+        <JSON>{"min-result":6753.87,"max-result":8531.37,"test-run-times":"190.01:188.35:180.84:179.89:188.39:190.09:179.71:188.64:186.58:186.62"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/renaissance-1.3.0</Identifier>
+    <Title>Renaissance</Title>
+    <AppVersion>0.14</AppVersion>
+    <Arguments>reactors</Arguments>
+    <Description>Test: Savina Reactors.IO</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>5848.2</Value>
+        <RawString>6008.6403:5786.7039:5749.3959</RawString>
+        <JSON>{"min-result":5749.4,"max-result":8031.02,"test-run-times":"75.72:74.16:73.06"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>5637.6</Value>
+        <RawString>5709.2389:5542.1875:5380.453:5743.859:5771.6908:5436.4527:5756.3911:5512.7761:5728.7775:5639.9232:5753.152:5676.659</RawString>
+        <JSON>{"min-result":5380.45,"max-result":8445.63,"test-run-times":"77.99:75.97:75.17:78.37:80.07:74.83:79.75:75.83:79.42:76.50:78.22:77.28"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>5924.3</Value>
+        <RawString>6307.4053:6390.0128:5922.177:5850.9618:5785.9511:5962.9732:5781.2034:5596.8568:5878.4446:5982.3574:6091.8127:5876.8911:5930.5855:5665.0147:5841.5789</RawString>
+        <JSON>{"min-result":5596.86,"max-result":8667.84,"test-run-times":"81.80:82.56:76.11:74.93:74.32:76.99:73.31:72.34:75.39:75.97:78.39:74.97:76.47:73.17:75.34"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/renaissance-1.3.0</Identifier>
+    <Title>Renaissance</Title>
+    <AppVersion>0.14</AppVersion>
+    <Arguments>db-shootout</Arguments>
+    <Description>Test: In-Memory Database Shootout</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>3779.7</Value>
+        <RawString>3762.4481:3805.3071:3771.3562</RawString>
+        <JSON>{"min-result":3489.59,"max-result":3983.76,"test-run-times":"65.34:66.17:65.33"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>5992.5</Value>
+        <RawString>6012.7733:6005.8555:5959.0066</RawString>
+        <JSON>{"min-result":4677.53,"max-result":6572.67,"test-run-times":"106.04:106.18:105.24"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>3525.1</Value>
+        <RawString>3512.4714:3537.1498:3525.7377</RawString>
+        <JSON>{"min-result":3280.77,"max-result":3799.96,"test-run-times":"60.83:61.38:60.99"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/renaissance-1.3.0</Identifier>
+    <Title>Renaissance</Title>
+    <AppVersion>0.14</AppVersion>
+    <Arguments>dotty</Arguments>
+    <Description>Test: Scala Dotty</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>1249.3</Value>
+        <RawString>1231.103774:1285.209219:1228.937426:1251.836327</RawString>
+        <JSON>{"min-result":759.85,"max-result":1285.21,"test-run-times":"99.66:100.38:99.03:100.03"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>1406.3</Value>
+        <RawString>1391.554166:1400.067513:1427.30372</RawString>
+        <JSON>{"min-result":869.54,"max-result":1427.3,"test-run-times":"114.13:111.92:113.11"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>1297.7</Value>
+        <RawString>1317.203419:1286.353702:1289.51917</RawString>
+        <JSON>{"min-result":787.76,"max-result":1317.2,"test-run-times":"103.89:103.61:103.84"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/renaissance-1.3.0</Identifier>
+    <Title>Renaissance</Title>
+    <AppVersion>0.14</AppVersion>
+    <Arguments>finagle-http</Arguments>
+    <Description>Test: Finagle HTTP Requests</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>3718.7</Value>
+        <RawString>3731.378:3709.6002:3715.065</RawString>
+        <JSON>{"min-result":3431.95,"max-result":3950.49,"test-run-times":"48.32:47.97:47.94"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>4525.1</Value>
+        <RawString>4519.9485:4534.7785:4520.6065</RawString>
+        <JSON>{"min-result":4026.45,"max-result":5929.58,"test-run-times":"57.57:57.67:57.46"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>4267.2</Value>
+        <RawString>4408.0046:4082.4401:4376.7865:4246.6178:4260.3053:4208.5744:4434.7587:4191.6043:4290.3962:4173.5629:4237.078:4296.2634</RawString>
+        <JSON>{"min-result":3425.65,"max-result":6919.6,"test-run-times":"57.80:53.40:57.65:55.44:55.82:55.07:58.00:54.95:56.59:54.73:55.52:56.43"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/renaissance-1.3.0</Identifier>
+    <Title>Renaissance</Title>
+    <AppVersion>0.14</AppVersion>
+    <Arguments>future-genetic</Arguments>
+    <Description>Test: Genetic Algorithm Using Jenetics + Futures</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>1595.4</Value>
+        <RawString>1587.0447:1650.4367:1569.5784:1574.3646</RawString>
+        <JSON>{"min-result":1261.21,"max-result":1650.44,"test-run-times":"65.84:68.59:65.59:65.33"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>1562.8</Value>
+        <RawString>1726.0349:1448.3879:1517.218:1755.8043:1569.313:1610.0328:1581.0157:1473.2595:1546.7126:1584.1016:1593.6105:1583.3544:1561.5835:1517.3033:1374.5363</RawString>
+        <JSON>{"min-result":1101.63,"max-result":1755.8,"test-run-times":"74.23:63.25:65.88:74.46:67.94:69.73:68.18:64.50:67.32:68.51:68.85:68.62:67.66:66.59:60.87"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>1315.7</Value>
+        <RawString>1311.6062:1302.6602:1332.8563</RawString>
+        <JSON>{"min-result":1038.54,"max-result":1332.86,"test-run-times":"54.47:55.16:56.51"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/renaissance-1.3.0</Identifier>
+    <Title>Renaissance</Title>
+    <AppVersion>0.14</AppVersion>
+    <Arguments>movie-lens</Arguments>
+    <Description>Test: ALS Movie Lens</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.81:1.78:1.81","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status."}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.76:1.86:1.73","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status."}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.81:1.75:1.81","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/java-scimark2-1.1.2</Identifier>
+    <Title>Java SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_COMPOSITE</Arguments>
+    <Description>Computational Test: Composite</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>3654.69</Value>
+        <RawString>3652.5468443281:3668.7386223237:3622.9025100189:3674.5652689855</RawString>
+        <JSON>{"test-run-times":"28.91:28.87:28.82:28.87"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>2461.46</Value>
+        <RawString>2400.5230761179:2450.4584699377:2484.6493139991:2510.1979724145</RawString>
+        <JSON>{"test-run-times":"32.90:32.60:32.29:32.24"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>2968.92</Value>
+        <RawString>2969.02968284:2962.1974681376:2979.9158121497:2964.5392469507</RawString>
+        <JSON>{"test-run-times":"28.87:28.88:28.77:28.80"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/java-scimark2-1.1.2</Identifier>
+    <Title>Java SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_FFT</Arguments>
+    <Description>Computational Test: Fast Fourier Transform</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>2696.49</Value>
+        <RawString>2641.7881387127:2641.7883772024:2860.5833829436:2641.7883772024</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>2381.43</Value>
+        <RawString>2349.9367876208:2375.5405086521:2386.9183468399:2413.3388037868</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>2755.79</Value>
+        <RawString>2756.6029954319:2755.514368604:2755.514368604:2755.514368604</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/java-scimark2-1.1.2</Identifier>
+    <Title>Java SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_SOR</Arguments>
+    <Description>Computational Test: Jacobi Successive Over-Relaxation</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>2198.32</Value>
+        <RawString>2190.9663889114:2200.3482688652:2200.9766850515:2200.9766850515</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>2200.82</Value>
+        <RawString>2200.3482688652:2202.2342948571:2200.3482688652:2200.3482688652</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>1510.61</Value>
+        <RawString>1503.6715062398:1513.1174400854:1513.1172984461:1512.5234964166</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/java-scimark2-1.1.2</Identifier>
+    <Title>Java SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_MONTE</Arguments>
+    <Description>Computational Test: Monte Carlo</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>1888.95</Value>
+        <RawString>1882.931625348:1895.3959552259:1882.931822159:1894.5599346649</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>591.67</Value>
+        <RawString>587.38609609814:586.90449715419:597.51908391684:594.87079461944</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>810.76</Value>
+        <RawString>808.54048831471:813.13276093685:813.13276093685:808.23620458638</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/java-scimark2-1.1.2</Identifier>
+    <Title>Java SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_SPARSE</Arguments>
+    <Description>Computational Test: Sparse Matrix Multiply</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>3154.20</Value>
+        <RawString>3180.3943640826:3135.6939086788:3135.6939086788:3165.0347463627</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>525.04</Value>
+        <RawString>527.45273856418:527.45273856418:520.95388835775:524.288</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>3287.88</Value>
+        <RawString>3303.6420661892:3287.0720413518:3287.0722870255:3273.7308071217</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/java-scimark2-1.1.2</Identifier>
+    <Title>Java SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_DENSE</Arguments>
+    <Description>Computational Test: Dense LU Matrix Factorization</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>8335.48</Value>
+        <RawString>8366.6537045857:8470.4666016462:8034.3267512616:8470.4666016462</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>6608.33</Value>
+        <RawString>6337.4914894413:6560.1603104606:6717.5069820156:6818.143994801</RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>6479.57</Value>
+        <RawString>6472.6913580247:6442.1507297101:6530.7423457361:6472.6913580247</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/j2dbench-1.1.2</Identifier>
+    <Title>Java 2D Microbenchmark</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>TEST_ALL</Arguments>
+    <Description>Rendering Test: All Rendering Tests</Description>
+    <Scale>Units Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>6900720.7213142</Value>
+        <RawString>6942559.0449816:6929392.5303027:6873081.1356125:6857850.1743598</RawString>
+        <JSON>{"test-run-times":"367.43:366.95:364.69:364.78"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>6888011.2107274</Value>
+        <RawString>6893496.2812676:6880546.7192771:6889854.5277542:6888147.3146105</RawString>
+        <JSON>{"test-run-times":"361.20:361.89:357.82:357.28"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>6922181.9717434</Value>
+        <RawString>6909898.2891659:6948144.882025:6921026.9518889:6909657.7638936</RawString>
+        <JSON>{"test-run-times":"369.57:369.98:368.31:370.00"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/j2dbench-1.1.2</Identifier>
+    <Title>Java 2D Microbenchmark</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>TEST_GRAPHICS</Arguments>
+    <Description>Rendering Test: Vector Graphics Rendering</Description>
+    <Scale>Units Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>5307457.8163302</Value>
+        <RawString>5306769.4253502:5344042.3459375:5298508.4320823:5280511.0619506</RawString>
+        <JSON>{"test-run-times":"249.88:250.86:246.75:250.35"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>5357099.8040075</Value>
+        <RawString>5377228.6350689:5366171.5240892:5339670.8683239:5345328.1885478</RawString>
+        <JSON>{"test-run-times":"244.87:242.89:245.90:242.92"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>5391267.1729994</Value>
+        <RawString>5380971.9486655:5399480.2674835:5384672.7267308:5399943.7491179</RawString>
+        <JSON>{"test-run-times":"251.79:252.05:249.10:249.64"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/j2dbench-1.1.2</Identifier>
+    <Title>Java 2D Microbenchmark</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>TEST_IMAGES</Arguments>
+    <Description>Rendering Test: Image Rendering</Description>
+    <Scale>Units Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>11604377.231742</Value>
+        <RawString>11631942.419263:11594529.684884:11596993.515886:11594043.306936</RawString>
+        <JSON>{"test-run-times":"108.17:109.92:105.92:107.50"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>11590402.293043</Value>
+        <RawString>11622279.563858:11580192.169879:11575838.324404:11583299.11403</RawString>
+        <JSON>{"test-run-times":"101.81:100.20:100.52:101.94"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>11578002.463457</Value>
+        <RawString>11596709.005139:11582021.376434:11579216.282161:11554063.190093</RawString>
+        <JSON>{"test-run-times":"108.98:108.82:106.95:107.18"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/j2dbench-1.1.2</Identifier>
+    <Title>Java 2D Microbenchmark</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>TEST_TEXT</Arguments>
+    <Description>Rendering Test: Text Rendering</Description>
+    <Scale>Units Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>21057.405925821</Value>
+        <RawString>21231.254052035:21084.630390634:20793.185186686:21120.55407393</RawString>
+        <JSON>{"test-run-times":"15.50:15.45:15.47:15.47"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>18041.178072641</Value>
+        <RawString>17600.7758605:19021.454390681:18967.354233685:17817.65395292:18795.862138327:17972.710638591:17739.155216864:18147.873820689:17932.837605335:17423.016604749:17766.760553581:17551.462582488:17710.072625349:18005.237074563:17394.476114137:18660.527764567:17749.193468134:17482.865020877:18537.864415705:18546.407371069</RawString>
+        <JSON>{"test-run-times":"15.91:15.52:15.75:16.02:15.72:15.83:15.89:15.94:15.83:15.48:15.88:16.00:15.84:15.91:15.67:15.61:15.56:15.63:15.61:15.28"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>21165.858941524</Value>
+        <RawString>20829.752402962:21036.959412832:21325.125936864:21471.598013439</RawString>
+        <JSON>{"test-run-times":"15.52:15.61:15.41:15.34"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/dacapobench-1.0.1</Identifier>
+    <Title>DaCapo Benchmark</Title>
+    <AppVersion>9.12-MR1</AppVersion>
+    <Arguments>h2</Arguments>
+    <Description>Java Test: H2</Description>
+    <Scale>msec</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>2386</Value>
+        <RawString>2297:2434:2252:2188:2516:2352:2641:2235:2547:2453:2407:2704:2219:2266:2235:2438:2313:2282:2438:2500</RawString>
+        <JSON>{"test-run-times":"5.75:5.66:5.50:5.42:5.78:5.62:5.86:5.53:5.73:5.67:5.62:5.92:5.44:5.47:5.48:5.59:5.63:5.48:5.58:5.70"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>2969</Value>
+        <RawString>3109:2973:2735:2921:2984:3203:3000:2969:3000:3046:3078:2766:2906:2672:2953:2985:3063:2956:3015:3049</RawString>
+        <JSON>{"test-run-times":"9.28:8.36:8.08:8.38:8.47:8.78:9.52:8.31:8.47:8.58:8.44:8.25:8.64:8.59:8.41:8.27:8.73:8.50:8.98:8.61"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>2068</Value>
+        <RawString>2000:2147:1938:1936:2103:1999:2266:1922:2234:2172:2000:1907:2032:1944:2032:2501:1939:2094:1875:2313</RawString>
+        <JSON>{"test-run-times":"6.13:5.22:5.97:5.17:5.44:5.20:5.86:5.48:5.74:5.64:5.44:5.84:5.61:5.38:5.59:5.74:5.45:5.08:5.59:5.33"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/dacapobench-1.0.1</Identifier>
+    <Title>DaCapo Benchmark</Title>
+    <AppVersion>9.12-MR1</AppVersion>
+    <Arguments>jython</Arguments>
+    <Description>Java Test: Jython</Description>
+    <Scale>msec</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>3317</Value>
+        <RawString>3282:3297:3390:3282:3344:3266:3360</RawString>
+        <JSON>{"test-run-times":"5.78:5.59:5.69:5.61:5.66:5.59:5.69"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>5826</Value>
+        <RawString>5873:5829:5907:5672:5750:5922</RawString>
+        <JSON>{"test-run-times":"8.40:8.28:8.34:8.09:8.19:8.37"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>3557</Value>
+        <RawString>3611:3533:3595:3532:3533:3548:3547</RawString>
+        <JSON>{"test-run-times":"5.92:5.78:5.89:5.80:5.83:5.80:5.83"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/dacapobench-1.0.1</Identifier>
+    <Title>DaCapo Benchmark</Title>
+    <AppVersion>9.12-MR1</AppVersion>
+    <Arguments>tradebeans</Arguments>
+    <Description>Java Test: Tradebeans</Description>
+    <Scale>msec</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>2383</Value>
+        <RawString>2453:2469:2547:2344:2422:2282:2391:2406:2391:2343:2297:2391:2375:2297:2359:2375:2422:2438:2376:2281</RawString>
+        <JSON>{"test-run-times":"10.47:10.59:10.69:10.47:10.56:10.44:10.61:10.55:10.62:10.55:10.50:10.59:10.52:10.47:10.50:10.55:10.58:10.58:10.50:10.48"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.64:1.87:1.86:1.87","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status."}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>2376</Value>
+        <RawString>2188:2314:2235:2235:2344:2562:2297:2548:2204:2313:2547:2547:2328:2562:2438:2360</RawString>
+        <JSON>{"test-run-times":"10.11:10.27:10.20:10.20:10.28:10.53:10.23:10.50:10.11:10.30:10.50:10.50:10.30:10.55:10.39:10.33"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/dacapobench-1.0.1</Identifier>
+    <Title>DaCapo Benchmark</Title>
+    <AppVersion>9.12-MR1</AppVersion>
+    <Arguments>tradesoap</Arguments>
+    <Description>Java Test: Tradesoap</Description>
+    <Scale>msec</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>4056</Value>
+        <RawString>4298:3844:4157:4158:3860:3782:3922:4188:4094:3954:3938:3860:4391:4533:4064:4172:3984:3798:3909:4204</RawString>
+        <JSON>{"test-run-times":"12.52:12.06:12.39:12.41:12.06:11.97:12.13:12.44:12.30:12.09:12.16:12.14:12.08:12.58:12.80:12.28:12.41:12.14:12.05:12.08:12.41"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.89:1.87:1.89:1.91","error":"The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status. The test quit with a non-zero exit status."}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>4069</Value>
+        <RawString>4391:4625:3782:3875:3876:3938:3766:3984:4360:3797:4266:4236:3797:4001:4047:4315:4018:4063:4173:4078</RawString>
+        <JSON>{"test-run-times":"12.44:11.94:12.70:11.87:11.89:11.92:11.97:11.81:12.00:12.20:12.39:11.81:12.30:12.27:11.86:12.03:12.09:12.33:12.08:12.11:12.22:12.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sunflow-1.1.3</Identifier>
+    <Title>Sunflow Rendering System</Title>
+    <AppVersion>0.07.2</AppVersion>
+    <Arguments></Arguments>
+    <Description>Global Illumination + Image Synthesis</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OpenJDK Windows 11</Identifier>
+        <Value>1.057</Value>
+        <RawString>1.055:1.064:1.054:1.045:1.066</RawString>
+        <JSON>{"min-result":0.98,"max-result":1.39,"test-run-times":"10.88:10.96:10.86:10.78:10.99"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>OpenJ9 Windows 11</Identifier>
+        <Value>1.242</Value>
+        <RawString>1.241:1.245:1.238:1.242</RawString>
+        <JSON>{"min-result":0.97,"max-result":2.08,"test-run-times":"12.87:12.85:12.78:12.83"}</JSON>
+      </Entry>
+      <Entry>
+        <Identifier>GraalVM Windows 11</Identifier>
+        <Value>0.939</Value>
+        <RawString>1.344:0.911:0.906:0.902:0.916:0.916:0.927:0.905:0.907:0.913:0.916:0.907:0.919:0.908:0.894</RawString>
+        <JSON>{"min-result":0.78,"max-result":3.8,"test-run-times":"13.73:9.41:9.35:9.31:9.44:9.44:9.58:9.35:9.38:9.44:9.44:9.38:9.47:9.38:9.22"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
